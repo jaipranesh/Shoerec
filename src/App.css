@@ -1,0 +1,162 @@
+/* app.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* HomeContainer styles */
+.main {
+  padding: 4rem;
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* FormContainer styles */
+.form-container {
+  border: 0;
+  border-radius: 8px;
+  background: #333;
+  padding: 1rem 2rem;
+  width: 30%;
+}
+
+.form-container h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* FormGroup styles */
+.form-group {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.8rem;
+}
+
+.form-group label {
+  color: white;
+}
+
+.form-group select,
+.form-group option,
+.form-group input {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  background-color: #202024;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  background-color: #075985;
+  border: 0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+/* ListContainer styles */
+.list-container {
+  flex: 1;
+  border: 0;
+  border-radius: 8px;
+  background: #333;
+  padding: 1rem 2rem;
+  width: 30%;
+}
+
+.list-container h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.list-container div {
+  overflow: auto;
+  height: 25rem;
+}
+
+.list-container table {
+  width: 100%;
+  margin-top: 3.5rem;
+  border-collapse: collapse;
+}
+
+.list-container thead th {
+  text-align: left;
+  padding: 0.6rem;
+  color: white;
+  background-color: black;
+}
+
+.list-container tbody td {
+  text-align: left;
+  padding: 0.8rem;
+  color: white;
+  background-color: #202024;
+}
+
+/* Additional styles for Feedback section */
+.feedback-container {
+  text-align: center;
+}
+
+/* app.css */
+
+/* Label styles */
+.label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Select styles */
+.select {
+  width: 100%;
+  outline: none;
+  padding: 1rem;
+  background-color: #202024;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Submit button styles */
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  background-color: #075985;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submit-button:hover {
+  opacity: 0.7;
+}
+
+/* Button container styles */
+.button-container {
+  text-align: center;
+}
+
